@@ -1,7 +1,7 @@
 # INTRODUCTION TO HTML CSS - FIRST WEB
 
 This is a repository that will host the first work from CodeSpace, that is a collaborative project. Unfortunately, collaborative parts of the work are discarded.
-This is a repetition of the work, so colleagues are not available, to check the first work, go to [b18-collaborative-projects](https://github.com/moiseslopez1014/b18-collaborative-projects)
+This is a repetition of the work, so colleagues are not available, to check the first work, go to [csbdwxviii_ipcg_1](https://github.com/moiseslopez1014/csbdwxviii_ipcg_1)
 
 ## About the project
 
@@ -32,4 +32,5 @@ I'm using this to help me:
 * Develop a template in Exvalidraw to design the visual of the site.
 * git and github, with separation of branches, where main will only have this readme, develop will host the finished code, and branch feature_myname to host the code in progress. When site is finished I will make a pull request to merge this featur branch into develop.
 * continuous use of commits, at least one per section coded.
+* Use of comments and BEM naming method.
 * Use of Trello to register and notify every step made.

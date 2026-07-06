@@ -1,0 +1,63 @@
+/*HEADER STYLE*/
+header {
+    background-color: #E9F9EB;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-radius: 25px;
+    border: 2px solid #549E4E;
+    justify-content: space-between;
+}
+/*LOGO+MOTTO*/
+.logo_Container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 60%;
+    align-items: center;
+}
+
+/*LOGO*/
+/*To Do  -  target painted with divs in background*/
+.logo_Container > img {
+    box-sizing: content-box;
+    padding: 3px;
+    width: 65px;
+    height: auto;
+    background-color: #549E4E;
+    border-radius: 10px;
+}
+
+/*MOTTO*/
+/*To Do  -  font family keep calm*/
+.logo_Container > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.90rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 1.2;
+}
+
+/*NAV CONTAINER*/
+
+.links_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+/*reset link style*/
+
+.links_Container  a {
+    text-decoration: none;
+    color: black;
+}
+.links_Container a:hover {
+    color: #549E4E;
+}

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>Razaad's Shooting range</title>
+  </head>
+  <body>
+    <!-- HEADER (Logo, motto, nav) -->
+    <header>
+      <!--Contains the svg logo and the motto, to display in row-->
+      <div class="logo_Container">
+        <img src="imgs/bow-svgrepo-com_edited.svg" alt="bow Logo" />
+        <h1>keep calm and <strong>shoot</strong> in our range</h1>
+      </div>
+      <!--Contains a nav with 3 links with separations, to display in column-->
+      <div class="links_Container">
+        <nav>
+          <a href="#about">about</a>
+          <hr />
+          <a href="#reserve">reserve</a>
+          <hr />
+          <a href="#contact">contact</a>
+        </nav>
+      </div>
+    </header>
+    <!--MAIN SECTIONS-->
+    <main>
+      <!--ABOUT-->
+      <section id="about">
+        <h2>ABOUT US</h2>
+        <p>
+          If your looking for you next obsession and you live in the province of
+          <em>Skyrim</em>, come to
+          <strong><em>Razaad's Shooting range.</em></strong>
+        </p>
+        <p>
+          Me and my colleage <em>Faeniel</em> we have this amazing range to
+          teach you about every kind of bow, we can give the best knowledge, but
+          also spend a good morning having fun, shooting and drinking some mead.
+        </p>
+        <p class="beAdvised">
+          *consumption of Skooma is totally forbidden, we ban cansumers and
+          dealers inside and around our range.
+        </p>
+        <p>
+          <strong>Our range</strong> is equipped with everything a marksman
+          would need, we have:
+        </p>
+        <ul>
+          <li>A river to <b>hunt mudcrabs.</b></li>
+          <li>
+            An abandoned fortress we use for our <b>siege tournaments.</b>
+          </li>
+          <li>
+            Field with 2 sizes of <b>shooting targets</b> at 3 differents
+            distances. Total of 12!
+          </li>
+          <li>We <b>sell and rent</b> 3 kinds of bows.</li>
+        </ul>
+      </section>
+      <!--RESERVE-->
+      <section id="reserve">
+        <h2>RESERVE</h2>
+        <div class="reserve-Container">
+          1- Choose your activity
+          <!--ACTIVITY-->
+          <div class="choosing-Container">
+            <img src="./imgs/mudcrab.jpg" alt="mudcrab image" />
+            <img src="./imgs/fortress.webp" alt="fortress image" />
+            <img
+              src="./imgs/practice-range-skyrim.webp"
+              alt="shooting targets image"
+            />
+            <div class="selection-Container">
+              <span
+                ><input type="radio" name="activity_value" id="" /> I like
+                mudcrabs (5 gold)</span
+              ><span
+                ><input type="radio" name="activity_value" id="" /> I want to
+                compete (20 gold, 8 gold price)</span
+              ><span
+                ><input type="radio" name="activity_value" id="" /> Chill and
+                shoot (10 gold)</span
+              >
+            </div>
+          </div>
+          2- Choose your bow
+          <!--BOW-->
+          <div class="choosing-Container">
+            <img src="./imgs/Longbow.webp" alt="Longbow image" /><img
+              src="./imgs/HuntingBow.webp"
+              alt="hunting bow image"
+            /><img src="./imgs/NordicBow.webp" alt="nordic bow image" />
+            <div class="selection-Container">
+              <span
+                ><input type="radio" name="bow_value" id="" /> Longbow (rent 3,
+                buy 30)</span
+              ><span
+                ><input type="radio" name="bow_value" id="" /> Hunting bow (rent
+                5, buy 45)</span
+              ><span
+                ><input type="radio" name="bow_value" id="" /> Nordic bow (rent
+                8, buy 75)</span
+              >
+            </div>
+          </div>
+          3- Choose your day
+          <!--DATE-->
+          <br />
+          <div class="date-Container">
+            <select name="date_value" id="date_value">
+              <option disabled>4E 202 Sun's Dusk, 19 Turdas</option>
+              <option>4E 202 Sun's Dusk, 20 Fredas</option>
+              <option>4E 202 Sun's Dusk, 21 Loredas</option>
+              <option>4E 202 Sun's Dusk, 22 Sundas</option>
+              <option disabled>4E 202 Sun's Dusk, 23 Morndas</option>
+              <option>4E 202 Sun's Dusk, 24 Tirdas</option>
+              <option>4E 202 Sun's Dusk, 25 Middas</option>
+              <option disabled>4E 202 Sun's Dusk, 26 Turdas</option>
+              <option>4E 202 Sun's Dusk, 27 Fredas</option>
+              <option>4E 202 Sun's Dusk, 28 Loredas</option>
+            </select>
+          </div>
+          <hr />
+          <div class="reserve_Confirm-Container">
+            <button id="reserve_Confirm-Button">Confirm and Reserve</button>
+          </div>
+        </div>
+      </section>
+      <!--CONTACT-->
+      <section id="contact">
+        <h2>CONTACT</h2>
+        <div class="contact-Container">
+          <img src="./imgs/location-skryrim.png" alt="location image" />
+          <p>
+            We are <em>Razaad</em> and <em>Faeniel</em>, Kahjiita and Bosmer.
+          </p>
+          <p>
+            Our renown precede us, ask around and they will tell you about us.
+          </p>
+          <p>
+            You can see us afternoon drinking or getting supplies in
+            karthwasten. My coleague Faeniel will be in Solitude every Loredas.
+          </p>
+          <p>
+            Or come to find our range, just
+            <b
+              >follow the road northeast from Karthwasten till you cross the
+              bridge, you will see the Broken Tower Redoubt up ahead.</b
+            >
+            our gates are always open.
+          </p>
+        </div>
+      </section>
+    </main>
+    <!--FOOTER-->
+    <footer>
+      Moises Lopez Iglesias  <a href="https://github.com/moiseslopez1014/" target="_blank"><img class="githubIcon" src="./imgs/iconGithub.png" alt="github logo"></a>
+    </footer>
+  </body>
+</html>

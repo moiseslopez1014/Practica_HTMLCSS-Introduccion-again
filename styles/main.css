@@ -77,13 +77,13 @@ section > h2 {
     padding: 30px;
     text-align: center;
 }
-
+ /*CONFIRM*/
 .reserve_Confirm-Container {
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-
+/*CONFIRM BUTTON*/
 #reserve_Confirm-Button {
     padding: 10px;
     color: #57A451;
@@ -91,7 +91,7 @@ section > h2 {
     border: 3px solid #57A451;
     border-radius: 10px;
 }
-
+/*CONTACT SECTION*/
 #contact {
     padding: 0 40px;
     font-size: 1rem;
@@ -101,11 +101,12 @@ section > h2 {
     flex-direction: column;
     gap: 16px;
 }
-
+/*MAP IMAGE*/
 #contact img {
     width: 100%;
     margin-bottom: 20px;
 }
+/*CONTACT TEXT*/
 #contact p {
     word-spacing: 20%;
     margin-bottom: 20px;

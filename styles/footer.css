@@ -1,0 +1,23 @@
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    gap: 10;
+}
+
+/*img*/
+
+footer a {
+    width: 40px;
+}
+
+.githubIcon {
+    width: 80%;
+}

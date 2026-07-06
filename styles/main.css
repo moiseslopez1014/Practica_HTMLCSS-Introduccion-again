@@ -6,9 +6,10 @@ main {
 }
 /*SECTIONS, SHARED SETTINGS*/
 main > section {
-    padding: 50px 40px;
+
     color: #4290A1;
 }
+
 /*SECTION TITLES*/
 section > h2 {
     letter-spacing: -1px;
@@ -21,6 +22,7 @@ section > h2 {
 /*ABOUT style*/
 #about {
     border: 3px dotted #4290A1;
+    padding: 50px 40px;
     text-align: justify;
     line-height: 120%;
     display: flex;
@@ -33,4 +35,78 @@ section > h2 {
     font-size: 8px;
     line-height: 90%;
     padding-left: 50%;
+}
+
+/*RESERVE section*/
+#reserve {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+}
+/*Reserve box*/
+.reserve-Container {
+    border: 3px solid #4290A1;
+    border-radius: 30px;
+    padding: 10px;
+}
+/* Choosing GRID*/
+.choosing-Container {
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4%;
+}
+/*IMAGES GRID */
+.choosing-Container img {
+    width: 90%;
+}
+/*TICK BOXES*/
+.selection-Container {
+    padding: 10px 5px;
+    font-size: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*DATE SELECTION*/
+.date-Container {
+    padding: 30px;
+    text-align: center;
+}
+
+.reserve_Confirm-Container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#reserve_Confirm-Button {
+    padding: 10px;
+    color: #57A451;
+    background-color: #B7F1C0;
+    border: 3px solid #57A451;
+    border-radius: 10px;
+}
+
+#contact {
+    padding: 0 40px;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 120%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#contact img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact p {
+    word-spacing: 20%;
+    margin-bottom: 20px;
 }

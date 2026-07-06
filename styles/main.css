@@ -18,7 +18,7 @@ section > h2 {
     margin-bottom: 40px;
     font-size: 1.80rem;
 }
-
+/*ABOUT style*/
 #about {
     border: 3px dotted #4290A1;
     text-align: justify;
@@ -27,7 +27,7 @@ section > h2 {
     flex-direction: column;
     gap: 16px;
 }
-
+/*small letter, for extra notes or warnings*/
 .beAdvised {
     text-align: right;
     font-size: 8px;

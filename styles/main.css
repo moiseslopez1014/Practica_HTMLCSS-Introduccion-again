@@ -28,6 +28,7 @@ section > h2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    font-family: 'viner-hand-itc';
 }
 /*small letter, for extra notes or warnings*/
 .beAdvised {
@@ -100,6 +101,7 @@ section > h2 {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    font-family: 'viner-hand-itc';
 }
 /*MAP IMAGE*/
 #contact img {
